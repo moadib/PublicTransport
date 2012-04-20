@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	
+    <ru.yandex.yandexmapkit.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="<your Yandex Map Kit api key>" />
+    
+    <Button
+        android:id="@+id/route_button"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/route_button"
+        android:textStyle="bold"
+        android:textSize="16dip"
+        android:textColor="#af1f1f1f"
+        android:text="@string/pick_a_route" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Где моя маршрутка?</string>
+    <string name="pick_a_route">Выберите маршрут</string>
+    <string name="preferences">Настройки</string>
+    <string name="cache">Кеш</string>
+    <string name="title_clear_cache">Очистить кеш</string>
+    <string name="summary_clear_cache">Удалить сохраненные карты</string>
+    <string name="update_interval">Интервал обновления</string>
+    <string name="couldnt_connect_to_server">Не удалось соединиться с сервером</string>
+    <string name="couldnt_receive_data_from_server">Не удалось получить данные с сервера</string>
+    <string name="update_interval_description">Интервал, через который обновляются данные</string>
+	<string name="couldnt_get_session_id">Не удалось получить идентификатор сессии</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="updateIntervalEntries">
+   <item>2 сек</item>
+   <item>5 сек</item>
+   <item>15 сек</item>
+   <item>30 сек</item>
+   <item>1 мин</item>
+</string-array>
+ 
+<string-array name="updateIntervalValues">
+   <item>2</item>
+   <item>5</item>
+   <item>15</item>
+   <item>30</item>
+   <item>60</item>
+</string-array>
+    
+</resources>
