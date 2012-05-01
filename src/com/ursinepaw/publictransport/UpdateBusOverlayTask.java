@@ -42,6 +42,7 @@ public class UpdateBusOverlayTask extends AsyncTask<String, Integer, ArrayList<B
 				request.setHeader("Cookie", mCookie);
 				request.setHeader("Host", "beta.ulroad.ru");
 				request.setHeader("Referer", "http://beta.ulroad.ru/");
+				request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.162 Safari/535.19");
 				
 				HttpResponse rp = hc.execute(request);
 				if(rp.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {

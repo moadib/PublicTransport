@@ -8,7 +8,7 @@
         android:id="@+id/map"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:apiKey="<your Yandex Map Kit api key>" />
+        android:apiKey="your Yandex Map Kit api key" />
     
     <Button
         android:id="@+id/route_button"
