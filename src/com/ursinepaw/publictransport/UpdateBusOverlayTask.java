@@ -35,8 +35,11 @@ public class UpdateBusOverlayTask extends AsyncTask<String, Integer, ArrayList<B
 	@Override
 	protected ArrayList<BusItem> doInBackground(String... nums) {				
 		HttpClient hc = new DefaultHttpClient();
-		for (int i = 0; i < nums.length; i++) {             
-			String uri = String.format("http://beta.ulroad.ru/getxml.php?n=%s", nums[i]);
+		for (int i = 0; i < nums.length; i++) {
+			String route = nums[i];
+			if (route.length() < 2)
+				route = "0" + route;
+			String uri = String.format("http://beta.ulroad.ru/getxml.php?n=%s", route);
 			try {
 				HttpGet request = new HttpGet(uri);	
 				request.setHeader("Cookie", mCookie);
